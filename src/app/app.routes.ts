@@ -20,6 +20,6 @@ export const routes: Routes = [
       component: ChildBComponent,
   },
   ]},
-  // {path : '', redirectTo : "/home-component", pathMatch : "full"},
+  {path : '', redirectTo : "/home-component", pathMatch : "full"},
   {path: "**", component: PageNotFoundComponent}
 ];
